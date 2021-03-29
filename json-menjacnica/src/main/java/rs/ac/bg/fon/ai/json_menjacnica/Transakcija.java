@@ -1,5 +1,7 @@
 package rs.ac.bg.fon.ai.json_menjacnica;
 
+import java.text.Format;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Transakcija {
@@ -66,8 +68,10 @@ public class Transakcija {
 
 	@Override
 	public String toString() {
+		Format f = new SimpleDateFormat("mm.dd.yyyy hh:mm");
+		String dat = f.format(datumTransakcije);
 		return "Transakcija [izvornaValuta=" + izvornaValuta + ", krajnjaValuta=" + krajnjaValuta + ", pocetniIznos="
-				+ pocetniIznos + ", konvertovaniIznos=" + konvertovaniIznos + ", datumTransakcije=" + datumTransakcije
+				+ pocetniIznos + ", konvertovaniIznos=" + konvertovaniIznos + ", datumTransakcije=" + dat
 				+ "]";
 	}
 	
