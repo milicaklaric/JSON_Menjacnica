@@ -1,0 +1,19 @@
+{
+  "izvornaValuta": "USD",
+  "krajnjaValuta": "EUR",
+  "pocetniIznos": 100.0,
+  "konvertovaniIznos": 84.4691,
+  "datumTransakcije": "Sep 4, 2020, 12:00:00 AM"
+}{
+  "izvornaValuta": "USD",
+  "krajnjaValuta": "CHF",
+  "pocetniIznos": 100.0,
+  "konvertovaniIznos": 91.28450000000001,
+  "datumTransakcije": "Sep 4, 2020, 12:00:00 AM"
+}{
+  "izvornaValuta": "USD",
+  "krajnjaValuta": "CAD",
+  "pocetniIznos": 100.0,
+  "konvertovaniIznos": 130.64499999999998,
+  "datumTransakcije": "Sep 4, 2020, 12:00:00 AM"
+}
