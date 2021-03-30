@@ -68,7 +68,7 @@ public class Transakcija {
 
 	@Override
 	public String toString() {
-		Format f = new SimpleDateFormat("mm.dd.yyyy hh:mm");
+		Format f = new SimpleDateFormat("dd.MM.yyyy hh:mm");
 		String dat = f.format(datumTransakcije);
 		return "Transakcija [izvornaValuta=" + izvornaValuta + ", krajnjaValuta=" + krajnjaValuta + ", pocetniIznos="
 				+ pocetniIznos + ", konvertovaniIznos=" + konvertovaniIznos + ", datumTransakcije=" + dat

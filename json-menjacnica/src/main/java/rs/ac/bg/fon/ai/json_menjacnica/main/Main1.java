@@ -5,12 +5,7 @@ import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.text.Format;
-import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import javax.swing.text.DateFormatter;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
@@ -49,6 +44,7 @@ public class Main1 {
 			if (rez.get("success").getAsBoolean()) {
 				double kurs = rez.get("quotes").getAsJsonObject().get("USDCAD").getAsDouble();
 				t.setKonvertovaniIznos(t.getPocetniIznos()*kurs);
+				System.out.println(t);
 				gson.toJson(t, file);
 			}
 
